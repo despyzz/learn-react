@@ -1,4 +1,5 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 import './ListItem.scss'
 
@@ -22,19 +23,19 @@ class ListItem extends React.Component {
 
           <button className="list-item__button star"
                   onClick={toggleImportant}>
-            <i className="star_active fa-solid fa-star"/>
-            <i className="star_inactive fa-regular fa-star"/>
+            <FontAwesomeIcon className="star_active" icon="fa-solid fa-star"/>
+            <FontAwesomeIcon className="star_inactive" icon="fa-regular fa-star"/>
           </button>
 
           <button className="list-item__button trash"
                   onClick={deleteItem}>
-            <i className="fa-solid fa-trash"/>
+            <FontAwesomeIcon icon="fa-solid fa-trash" />
           </button>
 
           <button className="list-item__button heart"
                   onClick={toggleLike}>
-            <i className="heart_active fa-solid fa-heart"/>
-            <i className="heart_inactive fa-regular fa-heart"/>
+            <FontAwesomeIcon className="heart_active" icon="fa-solid fa-heart"/>
+            <FontAwesomeIcon className="heart_inactive" icon="fa-regular fa-heart"/>
           </button>
         </div>
       </li>
