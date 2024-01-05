@@ -1,0 +1,13 @@
+.add-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+
+  &__label {
+    flex: 1;
+  }
+
+  &__submit {
+    padding: 0 8px;
+  }
+}

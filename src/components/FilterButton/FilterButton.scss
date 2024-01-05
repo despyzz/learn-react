@@ -1,0 +1,11 @@
+.filter-button {
+  cursor: pointer;
+  padding: 0 8px;
+  height: 100%;
+  border: 1px solid darkslategrey;
+  border-radius: 3px;
+}
+
+.filter-button_active {
+  background-color: lightskyblue;
+}

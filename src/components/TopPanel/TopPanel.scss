@@ -1,0 +1,15 @@
+.top-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__user-name {
+    font-weight: 500;
+  }
+
+  &__notes-status {
+    font-weight: 400;
+    color: grey;
+  }
+}

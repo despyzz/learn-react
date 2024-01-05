@@ -1,0 +1,71 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fff;
+  padding: 16px 24px;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+
+  list-style: none;
+
+  &__buttons {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__button {
+    background-color: transparent;
+    border: none;
+  }
+
+  // unimportant item
+  .star_active {
+    display: none;
+  }
+  .star_inactive {
+    display: block;
+  }
+
+  // unliked item
+  .heart_active {
+    display: none;
+  }
+  .heart_inactive {
+    display: block;
+  }
+}
+
+.list-item_important {
+  .star_active {
+    display: block;
+  }
+  .star_inactive {
+    display: none;
+  }
+  .list-item__text {
+    color: #e7e700;
+  }
+}
+
+.list-item_liked {
+  .heart_active {
+    display: block;
+  }
+  .heart_inactive {
+    display: none;
+  }
+}
+
+.star {
+  color: #f8f81d;
+}
+
+.trash {
+  color: #536d6d;
+}
+
+.heart {
+  color: crimson;
+}
