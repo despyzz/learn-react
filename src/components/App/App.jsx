@@ -144,7 +144,7 @@ class App extends React.Component {
       <>
         <header>
           <div className="container">
-            <TopPanel username="Dmitriy Kusov"
+            <TopPanel username="despyzz"
                       totalNotes={totalItems}
                       likedNotes={likedItems}
             />
